@@ -4,12 +4,13 @@
 	<meta charset="utf-8">
 	<title>Hello, Word!</title>
 	<script type="text/javascript">
-		var n1 = getElementById('num1');
-		var n2 = getElementById('num2');
+		var n1 = getElementById('num1').value;
+		var n2 = getElementById('num2').value;
+		var resposta = getElementById('return');
 		
 		function soma(){
 			var totalSoma = n1 + n2;
-			return = totalSoma;
+			resposta.innerHTML = "A soma entre " . n1 . " e " . n2 . " é: " . totalSoma;
 		}
 	</script>
 </head>
@@ -19,8 +20,9 @@
 	<p>Com ele, espero deixar meus afazeres no ambiente de trabalho em programação mais simples e fácil.</p>
 	<br>
 	<form>
-		<input type="number" id="num1" name="num1" min="0"> + <input type="number" id="num2" name="num2" min="0">
+		<input type="number" id="num1" name="num1" min="0" required> + <input type="number" id="num2" name="num2" min="0" required>
 		<input type="submit" value="Somar" onclick="soma()">
+		<div id="return"></div>
 	</form>
 </body>
 </html>
