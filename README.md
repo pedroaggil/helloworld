@@ -5,4 +5,4 @@
 
   Ao que parece, realmente não sei mais escrever em JS :(
 
-  Em realidade, pus em prática meus conhecimentos em JS para ver se consegui fazer uma Branch. Ao menos essa interação me foi vitoriosa. Interatividade nunca foi o meu forte, de qualquer forma - não conseguir somar dois números em JavaScript é prova disso.
+  Em realidade, pus em prática meus conhecimentos em JS para ver se conseguiria criar uma Branch. Ao menos essa interação me foi vitoriosa. Interatividade nunca foi o meu forte, de qualquer forma - não conseguir somar dois números em JavaScript é prova disso.
